@@ -1,0 +1,126 @@
+* {
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+window#waybar {
+    font-family: monospace;
+    background-color: transparent;
+    border-bottom: 0px;
+    color: #ebdbb2;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+.modules-right {
+    margin: 10px 10px 0 0;
+}
+.modules-center {
+    margin: 10px 0 0 0;
+}
+.modules-left {
+    margin: 10px 0 0 10px;
+}
+
+#workspaces {
+    background-color: #282828;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background-color: transparent;
+    color: #ebdbb2;
+    border-radius: 0;
+}
+
+#workspaces button:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+#workspaces button:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+#workspaces button:hover {
+    color: #d79921;
+}
+
+#workspaces button.focused {
+    background-color: #665c54;
+}
+
+#window,
+#clock,
+#battery,
+#backlight,
+#wireplumber,
+#tray,
+#cpu,
+#memory,
+#temperature,
+#network {
+    padding: 0 10px;
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+#mode {
+    background-color: #689d6a;
+    color: #282828;
+}
+
+#battery.charging,
+#battery.plugged {
+    background-color: #98971a;
+    color: #282828;
+}
+
+@keyframes blink {
+    to {
+        background-color: #282828;
+        color: #ebdbb2;
+    }
+}
+
+#battery.critical:not(.charging),
+#cpu.critical,
+#memory.critical,
+#temperature.critical {
+    background-color: #cc241d;
+    color: #ebdbb2;
+    animation: blink 0.5s steps(12) infinite alternate;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+#wireplumber.muted {
+    background-color: #458588;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}
+
+
+#window:hover,
+#clock:hover,
+#battery:hover,
+#backlight:hover,
+#wireplumber:hover,
+#tray:hover,
+#cpu:hover,
+#memory:hover,
+#temperature:hover,
+#network:hover {
+    background-color: #3c3836; /* Slightly lighter on hover */
+}
