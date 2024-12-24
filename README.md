@@ -1,5 +1,8 @@
 ### Salem's not so minimal dotfiles for Hyprland
 
+a lot of this config is thanks to 
+https://github.com/linuxmobile
+
 ### Steps
 
 ```
