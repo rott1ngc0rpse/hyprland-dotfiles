@@ -14,7 +14,7 @@ git clone https://aur.archlinux.org/paru && cd paru && makepkg -si
 ```
 
 ```
-paru -S rofi waybar hyprlock ttf-jetbrains-mono-nerd hyprland swww starship slurp rose-pine-cursor ranger vim mako nusehll grim alacritty arc-gtk-theme papirus-icon-theme wf-recorder wl-clipboard nwg-lookxdg-desktop-portal-hyprland && rm -rf ~/paru
+paru -S rofi waybar hyprlock ttf-jetbrains-mono-nerd hyprland swww starship slurp rose-pine-cursor ranger vim mako nusehll grim alacritty arc-gtk-theme papirus-icon-theme wf-recorder wl-clipboard nwg-look && rm -rf ~/paru
 ```
 
 my personal pick (optional)
