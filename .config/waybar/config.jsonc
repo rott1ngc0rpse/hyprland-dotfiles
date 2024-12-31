@@ -1,4 +1,4 @@
-{
+{   
     "modules-left":[
         "hyprland/workspaces",
         "custom/playerctl",
@@ -12,7 +12,6 @@
     ],
     "modules-right":[
         "tray",
-        "custom/wf-recorder",
         "backlight",
         "battery",
         "wireplumber",
@@ -42,12 +41,12 @@
             "3":"3",
             "4":"4",
             "5":"5",
-            "5":"6",
+            "6":"6",
             "7":"7",
             "8":"8",
             "9":"9",
             "urgent":"",
-            "active":"",
+            "active":"⦿",
             "default":"󰧞",
             "sort-by-number":true
         }
@@ -186,11 +185,5 @@
                 ""
             ]
         }
-    },
-    
-    "custom/randwall":{
-        "format":"󰏘",
-        "on-click":"bash $HOME/.config/hypr/randwall.sh",
-        "on-click-right":"bash $HOME/.config/hypr/wall.sh"
-    },
+    }
 }
