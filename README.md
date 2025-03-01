@@ -19,7 +19,7 @@ paru -S rofi waybar hyprlock ttf-jetbrains-mono-nerd hyprland swww starship slur
 
 my personal pick (optional)
 ```
-paru -S vesktop pcmanfm-gtk3 mtpfs mullvad-browser bluez bluez-utils blueman pavucontrol pinta fastfetch gvfs gvfs-mtp keepassxc networkmanager steam xdg-user-dirs xorg-xwayland noto-fonts-cjk noto-fonts-emoji noto-fonts-extra flatpak eog mpv ffmpeg cmus vscodium obs-studio amberol
+paru -S vesktop pcmanfm-gtk3 mtpfs zen-browser bluez bluez-utils blueman pavucontrol pinta fastfetch gvfs gvfs-mtp keepassxc networkmanager steam xdg-user-dirs xorg-xwayland noto-fonts-cjk noto-fonts-emoji noto-fonts-extra flatpak eog mpv ffmpeg cmus vscodium obs-studio amberol
 ```
 
 ![Screenshot](screenshot.png)
