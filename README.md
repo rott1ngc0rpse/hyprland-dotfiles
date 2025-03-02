@@ -22,6 +22,12 @@ my personal pick (optional)
 paru -S vesktop pcmanfm-gtk3 mtpfs zen-browser bluez bluez-utils blueman pavucontrol pinta fastfetch gvfs gvfs-mtp keepassxc networkmanager steam xdg-user-dirs xorg-xwayland noto-fonts-cjk noto-fonts-emoji noto-fonts-extra flatpak eog mpv ffmpeg cmus vscodium obs-studio amberol
 ```
 
-![Screenshot](screenshot.png)
+| Title         | Showcase Image                    |
+|---------------|-----------------------------------|
+| **Example 1** | ![Image 1](Screenshots/one.png)   |
+| **Example 2** | ![Image 2](Screenshots/two.png)   |
+| **Example 3** | ![Image 3](Screenshots/three.png) |
+| **Example 4** | ![Image 4](Screenshots/four.png)  |
+
 
 
