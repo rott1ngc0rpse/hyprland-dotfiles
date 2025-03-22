@@ -1,4 +1,4 @@
-@-moz-document url("about:home"), url("about:newtab") {
+@-moz-document url("about:home"), url("about:newtab"), url("about:welcome") {
   body {
     background-image: url("img/1.jpg") !important;
     background-repeat: no-repeat !important;
