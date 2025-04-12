@@ -14,12 +14,12 @@ git clone https://aur.archlinux.org/paru && cd paru && makepkg -si
 ```
 
 ```
-paru -S rofi waybar hyprlock ttf-jetbrains-mono-nerd hyprland swww starship slurp rose-pine-cursor ranger vim mako nushell grim btop alacritty arc-gtk-theme papirus-icon-theme wl-clipboard nwg-look && rm -rf ~/paru
+paru -S rofi waybar hyprlock ttf-jetbrains-mono-nerd hyprland swww starship slurp rose-pine-cursor ranger vim mako nushell grim btop kitty arc-gtk-theme papirus-icon-theme wl-clipboard nwg-look && rm -rf ~/paru
 ```
 
 my personal pick (sorta optional)
 ```
-paru -S vesktop-bin nautilus mtpfs zen-browser-bin bluez bluez-utils blueman pavucontrol gimp fastfetch gvfs gvfs-mtp keepassxc networkmanager steam xdg-user-dirs xorg-xwayland qt5-wayland qt6-wayland noto-fonts-cjk noto-fonts-emoji noto-fonts-extra flatpak eog vlc ffmpeg vscodium-bin obs-studio amberol
+paru -S vesktop-bin nautilus mtpfs zen-browser-bin bluez bluez-utils blueman pavucontrol gimp neofetch gvfs gvfs-mtp keepassxc networkmanager steam xdg-user-dirs xorg-xwayland qt5-wayland qt6-wayland noto-fonts-cjk noto-fonts-emoji noto-fonts-extra flatpak eog vlc ffmpeg vscodium-bin obs-studio amberol
 ```
 
 | Title                  | Showcase Image                    |
