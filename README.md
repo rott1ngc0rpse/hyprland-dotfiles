@@ -22,11 +22,11 @@ my personal pick (sorta optional)
 paru -S vesktop-bin nautilus mtpfs zen-browser-bin bluez bluez-utils blueman pavucontrol gimp neofetch gvfs gvfs-mtp keepassxc networkmanager steam xdg-user-dirs xorg-xwayland qt5-wayland qt6-wayland noto-fonts-cjk noto-fonts-emoji noto-fonts-extra flatpak eog vlc ffmpeg vscodium-bin obs-studio amberol
 ```
 
-| Title                  | Showcase Image                    |
-|------------------------|-----------------------------------|
-| **File manager**       | ![Image 1](Screenshots/one.png)   |
-| **Music & Browser**    | ![Image 2](Screenshots/two.png)   |
-| **OBS & Vscodium**     | ![Image 3](Screenshots/three.png) |
+| Title                    | Showcase Image                    |
+|--------------------------|-----------------------------------|
+| **File manager**         | ![Image 1](Screenshots/one.png)   |
+| **Music & Browser**      | ![Image 2](Screenshots/two.png)   |
+| **OBS & Vscodium**       | ![Image 3](Screenshots/three.png) |
 | **Home Screen + swaync** | ![Image 4](Screenshots/four.png)  |
 
 
