@@ -1,6 +1,6 @@
 ### My not so minimal dotfiles for Hyprland
 
-Thanks to (https://github.com/linuxmobile)[LinuxMobile] for the base config.
+Thanks to [https://github.com/linuxmobile](LinuxMobile) for the base config.
 
 ### Steps
 
