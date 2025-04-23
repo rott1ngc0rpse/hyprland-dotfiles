@@ -11,7 +11,7 @@ paru -S hyprland hyprlock waybar swww slurp grim wl-clipboard rofi swaync nwg-lo
 
 my personal pick (sorta optional)
 ```
-paru -S xorg-xwayland qt5-wayland qt6-wayland gvfs gvfs-mtp mtpfs xdg-user-dirs networkmanager bluez bluez-utils blueman pavucontrol vlc ffmpeg amberol steam gimp eog obs-studio vesktop-bin zen-browser-bin vscodium-bin keepassxc flatpak nautilus neofetch noto-fonts-cjk noto-fonts-emoji noto-fonts-extra 
+paru -S xorg-xwayland qt5-wayland qt6-wayland gvfs gvfs-mtp mtpfs xdg-user-dirs networkmanager bluez bluez-utils blueman pavucontrol vlc ffmpeg amberol steam gimp eog obs-studio vesktop-bin zen-browser-bin vscodium-bin keepassxc flatpak cosmic-files neofetch noto-fonts-cjk noto-fonts-emoji noto-fonts-extra 
 ```
 
 | Title                            | Showcase Image                |
