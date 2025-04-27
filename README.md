@@ -14,6 +14,8 @@ my personal pick (sorta optional)
 paru -S xorg-xwayland qt5-wayland qt6-wayland gvfs gvfs-mtp mtpfs xdg-user-dirs networkmanager network-manager-applet bluez bluez-utils blueman pavucontrol vlc ffmpeg amberol steam gimp eog obs-studio vesktop-bin zen-browser-bin vscodium-bin keepassxc flatpak nautilus neofetch noto-fonts-cjk noto-fonts-emoji noto-fonts-extra 
 ```
 
+Keep in mind that my dotfiles are designed for my use case, some features may not be to your liking.
+
 | Title                            | Showcase Image                |
 |---------------------------------|--------------------------------|
 | **File manager & rofi**         | ![Image 1](Screenshots/1.png)  |
