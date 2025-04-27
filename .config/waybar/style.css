@@ -3,7 +3,6 @@
      font-size: 15px;
      font-style: normal;
      min-height: 0;
-     color: white;
 }
 
 window#waybar {
@@ -176,7 +175,7 @@ window#waybar {
 }
 
 tooltip {
-     color: black;
+     color: white;
      background: #282828;
      border: 1px solid pink;
 }
