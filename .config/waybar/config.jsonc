@@ -15,7 +15,6 @@
         "backlight",
         "battery",
         "wireplumber",
-        "network",
         "custom/notifications",
         "clock"
     ],
@@ -126,14 +125,6 @@
         "format": "{title}",
         "max-length": 40,
         "all-outputs": true
-    },
-    "network": {
-        "interval": 5,
-        "format-wifi": "󰤨 ({signalStrength}%)",
-        "format-ethernet": "󱘖 {ifname}: {ipaddr}/{cidr}",
-        "format-disconnected": "󰤭 Disconnected",
-        "tooltip-format": "{essid}",
-        "on-click": "alacritty -e nmtui"
     },
     "tray": {
         "icon-size": 16,

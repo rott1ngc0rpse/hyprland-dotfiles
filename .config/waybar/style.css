@@ -42,7 +42,6 @@ window#waybar {
 #clock,
 #battery,
 #wireplumber,
-#network,
 #custom-notifications {
      background: transparent;
      padding: 5px;
@@ -106,12 +105,6 @@ window#waybar {
      margin-left: 0px;
      margin-right: 0px;
      padding: 0px 0px;
-}
-
-#network {
-     color: #f4d9e1;
-     border-radius: 8px;
-     margin-right: 5px;
 }
 
 #wireplumber {
