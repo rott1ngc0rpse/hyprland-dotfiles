@@ -6,7 +6,7 @@ Thanks to [Catppuccin](https://github.com/catppuccin) for the amazing themes.
 ### Dependencies
 
 ```
-paru -S hyprland hyprlock waybar swww slurp grim wl-clipboard rofi swaync nwg-look ttf-jetbrains-mono-nerd orchis-theme papirus-icon-theme rose-pine-cursor starship nushell btop ranger vim kitty && rm -rf ~/paru
+paru -S hyprland hyprlock waybar swww slurp grim wl-clipboard rofi swaync nwg-look ttf-jetbrains-mono-nerd papirus-icon-theme rose-pine-cursor starship nushell btop ranger vim kitty && rm -rf ~/paru
 ```
 
 my personal pick (sorta optional)
