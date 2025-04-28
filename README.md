@@ -20,7 +20,7 @@ Keep in mind that my dotfiles are designed for my use case, some features may no
 | Title                     | Showcase Image                 |
 |---------------------------|--------------------------------|
 | **Home & Swaync**         | ![Image 1](Screenshots/1.png)  |
-| **Nautilus & Rofi**       | ![Image 2](Screenshots/0.png)  |
+| **Nautilus & Rofi**       | ![Image 2](Screenshots/2.png)  |
 | **Zen & Amberol**         | ![Image 3](Screenshots/3.png)  |
 | **Vscodium & OBS**        | ![Image 4](Screenshots/4.png)  |
 | **Waybar**                | ![Image 5](Screenshots/5.png)  |
