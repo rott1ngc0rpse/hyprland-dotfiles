@@ -7,7 +7,7 @@ Thanks to [Adi1090x](https://github.com/adi1090x/rofi/) for the incredible rofi 
 ### Dependencies
 
 ```
-paru -S hyprland hyprlock waybar swww slurp grim wl-clipboard rofi swaync nwg-look ttf-jetbrains-mono-nerd papirus-icon-theme rose-pine-cursor starship nushell btop ranger vim kitty && rm -rf ~/paru
+paru -S hyprland hyprlock sddm sddm-theme-catppuccin waybar swww slurp grim wl-clipboard rofi swaync nwg-look ttf-jetbrains-mono-nerd papirus-icon-theme rose-pine-cursor starship nushell btop ranger vim kitty && rm -rf ~/paru
 ```
 
 my personal pick (sorta optional)
