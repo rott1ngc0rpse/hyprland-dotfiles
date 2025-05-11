@@ -172,9 +172,9 @@
         "scroll-step": 5
     },
     "pulseaudio#input": {
-        "format": "{format_source}% ",
-        "format-source": " {volume}",
-        "format-source-muted": " {volume}",
+        "format": "{format_source}",
+        "format-source": " {volume}%",
+        "format-source-muted": " muted",
         "on-scroll-up": "sh -c 'vol=$(pactl get-source-volume @DEFAULT_SOURCE@ | grep -oP \"\\d+(?=%)\" | head -1); if [ \"$vol\" -lt 100 ]; then pactl set-source-volume @DEFAULT_SOURCE@ +5%; fi'",
         "on-scroll-down": "pactl set-source-volume @DEFAULT_SOURCE@ -5%",
         "max-volume": "100",
