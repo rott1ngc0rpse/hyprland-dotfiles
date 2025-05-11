@@ -2,7 +2,8 @@
 
 Thanks to [LinuxMobile](https://github.com/linuxmobile) for the base config. \
 Thanks to [Catppuccin](https://github.com/catppuccin) for the amazing themes. \
-Thanks to [Adi1090x](https://github.com/adi1090x/rofi/) for the incredible rofi config.
+Thanks to [Adi1090x](https://github.com/adi1090x/rofi/) for the incredible rofi config. \
+Thanks to [forkentine](https://github.com/forkentine) for the beautiful swaync config.
 
 ### Dependencies
 
