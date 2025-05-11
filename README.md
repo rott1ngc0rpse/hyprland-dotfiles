@@ -24,4 +24,4 @@ Keep in mind that my dotfiles are designed for my use case, some features may no
 | **Nautilus & Rofi**       | ![Image 2](Screenshots/two.png)|
 | **Zen & Amberol**         | ![Image 3](Screenshots/3.png)  |
 | **Vscodium & OBS**        | ![Image 4](Screenshots/4.png)  |
-| **Waybar**                | ![Image 5](Screenshots/5.png)  |
+| **Waybar**                | ![Image 5](Screenshots/waybar.png)  |
