@@ -20,8 +20,8 @@ configuration {
 /*****----- Global Properties -----*****/
 * {
     font:                          "JetBrains Mono Nerd Font 10";
-    background:                  #1E1E28;        /* dark gray background */
-    background-alt:              #2A2A3C;        /* slightly lighter dark gray */
+    background:                  #1b1b1b;        /* dark gray background */
+    background-alt:              #2b2b2b;        /* slightly lighter dark gray */
     foreground:                  #F8F8F2;        /* off-white text */
     selected:                    #FF79C6;        /* soft pink highlight */
     active:                      #BD93F9;        /* purple-ish for active */
@@ -42,6 +42,7 @@ window {
     border-radius:               15px;
     cursor:                      "default";
     background-color:            @background;
+    padding:                     10px;
 }
 
 /*****----- Main Box -----*****/
@@ -59,6 +60,7 @@ imagebox {
     background-image:            url("~/.config/rofi/images/a.png", height);
     orientation:                 vertical;
     children:                    [ "inputbar", "dummy", "mode-switcher" ];
+    border-radius: 15px;
 }
 
 listbox {
@@ -189,7 +191,7 @@ message {
     background-color:            transparent;
 }
 textbox {
-    padding:                     15px;
+    padding:                     10px;
     border-radius:               10px;
     background-color:            @background-alt;
     text-color:                  @foreground;
@@ -197,7 +199,7 @@ textbox {
     horizontal-align:            0.0;
 }
 error-message {
-    padding:                     15px;
+    padding:                     10px;
     border-radius:               20px;
     background-color:            @background;
     text-color:                  @foreground;
