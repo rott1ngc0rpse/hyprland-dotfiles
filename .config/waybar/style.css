@@ -157,13 +157,3 @@ tooltip {
 }
 
 /* === Unused or Orphaned CSS Selectors === */
-/* Not referenced in config — safe to delete or keep for future */
-
-#custom-power {
-     color: #24283b;
-     background-color: #db4b4b;
-     border-radius: 15px;
-     margin: 5px 0 5px 0;
-     margin-right: 10px;
-     padding: 5px 10px;
-}
