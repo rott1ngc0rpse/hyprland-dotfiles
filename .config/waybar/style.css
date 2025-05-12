@@ -65,8 +65,22 @@ window#waybar {
 #mpris {
      margin: 5px 0;
      padding: 0px 15px 0px 15px;
-     background: rgb(137, 180, 250);
-     background: radial-gradient(circle, rgba(137, 180, 250, 120) 0%, rgba(142, 179, 250, 120) 6%, rgba(148, 226, 213, 1) 14%, rgba(147, 178, 250, 1) 14%, rgba(155, 176, 249, 1) 18%, rgba(245, 194, 231, 1) 28%, rgba(158, 175, 249, 1) 28%, rgba(181, 170, 248, 1) 58%, rgba(205, 214, 244, 1) 69%, rgba(186, 169, 248, 1) 69%, rgba(195, 167, 247, 1) 72%, rgba(137, 220, 235, 1) 73%, rgba(198, 167, 247, 1) 78%, rgba(203, 166, 247, 1) 100%);
+     background: rgb(255, 182, 193);
+     background: radial-gradient(circle,
+               rgba(255, 182, 193, 120) 0%,
+               rgba(255, 174, 189, 120) 6%,
+               rgba(255, 192, 203, 1) 14%,
+               rgba(255, 160, 170, 1) 14%,
+               rgba(255, 120, 145, 1) 18%,
+               rgba(255, 209, 220, 1) 28%,
+               rgba(255, 145, 175, 1) 28%,
+               rgba(255, 115, 135, 1) 58%,
+               rgba(255, 105, 125, 1) 69%,
+               rgba(255, 165, 190, 1) 69%,
+               rgba(255, 130, 160, 1) 72%,
+               rgba(255, 200, 210, 1) 73%,
+               rgba(255, 140, 150, 1) 78%,
+               rgba(255, 120, 140, 1) 100%);
      background-size: 400% 400%;
      animation: gradient_f 9s cubic-bezier(.72, .39, .21, 1) infinite;
      text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.377);
