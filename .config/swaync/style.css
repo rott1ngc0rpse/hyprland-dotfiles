@@ -151,22 +151,6 @@
     font-size: 1.5rem;
 }
 
-.widget-mpris {
-    background: @noti-bg-darker;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-.widget-mpris-title {
-    font-weight: 700;
-    font-size: 1.25rem;
-}
-
-.widget-mpris-subtitle {
-    font-size: 1.1rem;
-}
-
 .widget-buttons-grid {
     font-size: large;
     padding: 8px;

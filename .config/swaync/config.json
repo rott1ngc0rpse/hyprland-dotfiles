@@ -23,12 +23,11 @@
     "script-fail-notify": true,
     "widgets": [
         "buttons-grid",
-        "mpris",
-        "volume",
-        "backlight",
         "title",
         "dnd",
-        "notifications"
+        "notifications",
+        "volume",
+        "backlight"
     ],
     "widget-config": {
         "title": {
@@ -42,10 +41,6 @@
         "label": {
             "max-lines": 1,
             "text": "Notification Center"
-        },
-        "mpris": {
-            "image-size": 96,
-            "image-radius": 12
         },
         "volume": {
             "label": "󰕾 ",

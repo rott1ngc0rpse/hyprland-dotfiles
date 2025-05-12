@@ -7,7 +7,7 @@
         "temperature"
     ],
     "modules-center": [
-        "cava",
+        "custom/cava",
         "mpris"
     ],
     "modules-right": [
@@ -67,42 +67,21 @@
         "tooltip": false,
         "on-click": "missioncenter"
     },
-    "cava": {
-        "autosens": 1,
-        "bars": 14,
-        "hide_on_silence": true,
-        "sleep_timer": 1,
-        "framerate": 30,
-        "sensitivity": 1,
-        "method": "pipewire",
-        "source": "auto",
-        "stereo": true,
-        "reverse": false,
-        "bar_delimiter": 0,
-        "monstercat": false,
-        "waves": false,
-        "noise_reduction": 0.1,
-        "input_delay": 0,
-        "format-icons": [
-            "▁",
-            "▂",
-            "▃",
-            "▄",
-            "▅",
-            "▆",
-            "▇",
-            "█"
-        ],
-        "actions": {
-            "on-click-right": "mode"
-        }
+    "custom/cava": {
+        "exec": "sh ~/.config/scripts/cava.sh",
+        "format": "{}",
+        "tooltip": false,
+        "on-click": "swaymsg reload & pkill waybar & waybar",
+        "layer": "below",
+        "output": "all"
     },
     "mpris": {
         "format": "{status_icon} {dynamic}",
         "format-empty": "test",
         "tooltip": false,
         "interval": 1,
-        "dynamic-len": 40,
+        "dynamic-len": 50,
+        "max-length": 40,
         "status-icons": {
             "paused": "",
             "playing": "",
@@ -133,6 +112,7 @@
         ]
     },
     "battery": {
+        "bat": "BAT2",
         "states": {
             "good": 95,
             "warning": 30,
