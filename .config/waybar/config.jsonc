@@ -80,8 +80,7 @@
         "format-empty": "test",
         "tooltip": false,
         "interval": 1,
-        "dynamic-len": 50,
-        "max-length": 40,
+        "dynamic-len": 40,
         "status-icons": {
             "paused": "",
             "playing": "",
